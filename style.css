@@ -1,4 +1,4 @@
-.main-container {
+#main-container {
     background-color: rgb(139, 213, 195);
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ h2 {
     font-size: 1.5em;
 }
 
-.container {
+#toDoContainer {
     background-color: rgb(60, 60, 222);
     width: 40em;
     height: auto;
@@ -36,13 +36,20 @@ h2 {
     margin-top: 1em;
 }
 
-.form {
+#form {
     font-family: 'Chau Philomene One', sans-serif;
     color: white;
     font-size: 1em;
     margin: 0 auto;
     display: inline;
     text-align: center;
+}
+
+.paragraph-styling {
+    font-family: 'Chau Philomene One', sans-serif;
+    color: white;
+    font-size: 1.5em;
+
 }
 
 

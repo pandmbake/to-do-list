@@ -17,13 +17,10 @@ h2 {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(60, 60, 222);
-    border-radius: 50%;
+    width: 50em;
     height: auto;
-    margin-top: 4em;
+    margin: 0 auto;
     padding: 1em;
 }
 

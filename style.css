@@ -8,6 +8,7 @@
     height: auto;
     margin: 0 auto;
     margin-top: 3em;
+    border-radius: 5%;
    
 }
 
@@ -52,5 +53,33 @@ h2 {
 
 }
 
+@media screen and (max-width: 500px) {
+    #main-container {
+        background-color: rgb(139, 213, 195);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 3em;
+        width: 15em;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 3em;
 
+}
 
+    #toDoContainer {
+        background-color: rgb(60, 60, 222);
+        width: 15em;
+        height: auto;
+        margin: 0 auto;
+        padding: 1em;
+        text-align: center;
+        margin-top: 1em;
+
+}
+
+    .addToDo {
+        margin-top: 1em;
+
+}
+}
